@@ -1,0 +1,45 @@
+
+---
+componentName:  adk-linux
+
+welcomeStyleCalamares:   false
+
+welcomeExpandingLogo:   true
+
+windowExpanding:    normal
+
+windowSize: 1280px,720px
+
+windowPlacement: center
+
+sidebar: none
+
+navigation: widget
+
+strings:
+    productName:         ADK-Linux
+    shortProductName:    ADK
+    version:             2022.21.9
+    shortVersion:        2022.21.9
+    versionedName:       ADK-Linux
+    shortVersionedName:  ADK
+    bootloaderEntryName: Generic
+
+images:
+    productIcon:         "adk-smaller.png"
+    productLogo:         "adk-smaller.png"
+    productWelcome:      "1-welcometo.png"
+
+style:
+   sidebarBackground:    "#000000"
+   sidebarText:          "#EFEFEF"
+   sidebarTextSelect:    "#000000"
+   sidebarTextHighlight: "#EFEFEF"
+
+slideshow:               "show.qml"
+
+slideshowAPI: 2
+
+uploadServer :
+    type :    "fiche"
+    url :     "http://termbin.com:9999"
